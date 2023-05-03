@@ -14,11 +14,11 @@ pentagon = Pentagon()
 
 
 def writeInFile(data):
-    f = open("/resources/result_E22MTCG0005.txt", "a")
+    f = open("/Users/apple/Documents/Projects-Test/pythonProject/pythonProject/classes/task1/result_E22MTCG0005.txt", "a")
     f.write(data+"\n")
     f.close()
 
-with open("/resources/input.txt") as file:
+with open("/Users/apple/Documents/Projects-Test/pythonProject/pythonProject/classes/task1/input.txt") as file:
     while line := file.readline():
         extracted_line = line.rstrip()
         print(extracted_line.split())

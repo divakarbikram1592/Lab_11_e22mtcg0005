@@ -8,7 +8,7 @@ sepal_list = []
 petal_list = []
 flower_list = []
 
-with open("/Users/apple/Documents/Projects-Test/pythonProject/pythonProject/resources/iris.data") as file:
+with open("/Users/apple/Documents/Projects-Test/pythonProject/pythonProject/classes/task2/iris.data") as file:
     while line := file.readline():
         extracted_line = line.rstrip()
         # print(extracted_line.split())
